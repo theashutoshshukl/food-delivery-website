@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+header{
+    height: auto;
+}
+
+.logo img{
+    padding-top: 4px;
+    width: 75px;
+    height: 55px;
+}
+
+.navbar{
+    flex-direction: column;
+}
+
+.navbar ul li{
+    padding: 5px 10px;
+    font-size: 19px;
+}
+
+/* Services */
+.service-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 280px;
+}
+
+#box-2{
+    overflow: hidden;
+    width: 280px;
+    height: 379px;
+    padding: 2px;
+}
+
+/* Clients */
+#clients{
+    flex-wrap: wrap;
+}
+
+#client-section::before{
+    height: 422px;
+    flex-wrap: wrap;
+}
+
+.client-item{
+    padding: 15px;
+}
+
+#clients img{
+    height: 72px;
+}
+
+/* Contact */
+#contact{
+    margin-top: 95px;
+}
+
+.contact-box label, input, textarea{
+    width: 280px;
+}
+
+.btn2{
+    margin-left: -139px;
+}
