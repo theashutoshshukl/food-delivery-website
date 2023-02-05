@@ -25,10 +25,8 @@
         </nav>
         <div class="heading">
             <h2>Welcome to my Website</h2>
-            <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quo quas mollitia beatae ducimus
-                pariatur nemo similique placeat? Similique amet obcaecati soluta eveniet corrupti vero deleniti quam.
-            </p>
-            <button class="btn">Order Now</button>
+            <p id="para1">Welcome to my food delivery website. Here you can order food this is only a simple UI.</p>
+            <button class="btn" onclick="orderFood">Order Now</button>
         </div>
     </header>
     <!-- Services -->
@@ -109,6 +107,15 @@
         </div>
     </section>
     <footer>Copyright &copy; www.myOnlinemall.com. All rights riserved!</footer>
+    
+    <script>
+        const orderFood = () = >{
+            let a = confirm("Do you want to order food");
+            if(a == true){
+                alert("Order Submitted Successfully");
+            }
+        }
+    </script>
 </body>
 
 </html>
